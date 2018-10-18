@@ -1,0 +1,17 @@
+.thumbnail{
+     text-align: center;
+}
+.thumbnail img{
+     max-height: 250px;
+     width: 70%;
+}
+
+.thumbnail  .description{
+     color: #7f7f7f;
+     text-align: justify;
+}
+.price{
+     font-weight: bold;
+     font-size: 25px;
+     color: blue;
+}
