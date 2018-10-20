@@ -10,7 +10,7 @@ var indexRouter = require('./routes/index');
 
 var app = express();
 
-// mongoose.connect('localhost:27017/shoping');
+mongoose.connect("mongodb://localhost:27017/shoping", { useNewUrlParser: true });
 // view engine setup
 app.engine('.hbs',expressHbs({defaultLayout:'layout',extname:'.hbs'}));
 app.set('view engine', '.hbs');

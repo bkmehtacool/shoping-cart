@@ -2,8 +2,8 @@
      text-align: center;
 }
 .thumbnail img{
-     max-height: 250px;
-     width: 70%;
+     height: 200px;
+     width: 150px;
 }
 
 .thumbnail  .description{
