@@ -12,8 +12,8 @@
                         Action <span class="caret"></span>
                     </button>
                     <ul class="dropdown-menu">
-                        <li><a href="">Reduce by 1</a></li>
-                        <li><a href="">Remove All</a></li>
+                        <li><a href="/reduce/{{this.item._id}}">Reduce by 1</a></li>
+                        <li><a href="/remove/{{this.item._id}}">Remove All</a></li>
                     </ul>
                 </div>
             </li>
@@ -24,7 +24,7 @@
 
 <div class="row">
     <div class="col-sm-8 col-md-8 col-md-offset-2 col-sm-offset-2">
-        <strong>total:{{totalPrice}}</strong>
+        <strong>total: ${{totalPrice}}</strong>
     </div>
 </div>
 
